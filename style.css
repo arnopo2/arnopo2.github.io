@@ -1,0 +1,18 @@
+:root { --encre:#1a1a18; --papier:#fbfaf7; --trait:#d8d4cc; --gris:#6b6760; }
+@media (prefers-color-scheme: dark) {
+  :root { --encre:#eae7e1; --papier:#17171a; --trait:#34343a; --gris:#9b968e; }
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--papier); color:var(--encre);
+  font:16px/1.65 Georgia, "Times New Roman", serif; }
+main { max-width:40rem; margin:0 auto; padding:3rem 1rem 5rem; }
+h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .4rem; font-weight:normal; }
+h2 { font-size:1.15rem; margin:2.4rem 0 .6rem; font-weight:normal;
+  border-top:1px solid var(--trait); padding-top:1.4rem; }
+.chapo { color:var(--gris); margin:0 0 2rem; }
+nav { font-size:.85rem; color:var(--gris); margin-bottom:2.5rem;
+  border-bottom:1px solid var(--trait); padding-bottom:1rem; }
+nav a { color:var(--gris); margin-right:1.2rem; }
+a { color:inherit; }
+footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--trait);
+  font-size:.8rem; color:var(--gris); }
